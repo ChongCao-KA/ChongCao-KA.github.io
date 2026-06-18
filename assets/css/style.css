@@ -78,7 +78,7 @@ main {
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
+  grid-template-columns: 320px minmax(0, 1fr);
   gap: 44px;
   align-items: center;
   min-height: calc(100vh - 116px);
